@@ -6,8 +6,6 @@ import total from '../../assets/total.svg';
 
 import api from '../../services/api';
 
-import Header from '../../components/Header';
-
 import formatValue from '../../utils/formatValue';
 import formatDate from '../../utils/formatDate';
 
@@ -47,7 +45,6 @@ const Dashboard: React.FC = () => {
 
   return (
     <>
-      <Header />
       <Container>
         <CardContainer>
           <Card>
